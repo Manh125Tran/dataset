@@ -1,6 +1,7 @@
 # Home Repair Service Dataset
 
-The `home_repair_service_dataset.sql` file contains sample data for the home repair service.
+The `home_repair_service_dataset.sql` file contains sample data for the home repair service. 
+The dataset consists of 3 separate tables with different data volumes.
 Here are 2 ways to import this file into MySQL.
 
 ---
