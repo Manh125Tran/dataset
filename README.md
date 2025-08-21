@@ -11,10 +11,13 @@ Here are 2 ways to import this file into MySQL.
 If you already have a database (e.g. `mydb`), run the following command in CMD/PowerShell:
 ```bash
 mysql -u root -p mydb < "C:\Users\<username>\Desktop\home_repair_service_dataset.sql"
+'''
 **## 2. Import into new database**
 Create a new database before importing:
 ```bash
 mysql -u root -p mydb < "C:\Users\<username>\Desktop\home_repair_service_dataset.sql"
+'''
 Import data into the newly created database:
 '''bash
 mysql -u root -p home_repair_service < "C:\Users\<username>\Desktop\home_repair_service_dataset.sql"
+'''
